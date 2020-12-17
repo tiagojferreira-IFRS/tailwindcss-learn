@@ -1,4 +1,19 @@
 /* ./your-css-folder/styles.css */
 @tailwind base;
+
+.btn {
+    @apply outline-none py-2 px-4 text-white font-semibold rounded-md;
+}
+
+.btn-green {
+    @apply bg-green-500;
+}
+.btn-teal:hover {
+    @apply bg-green-600;
+}
+.input {
+    @apply  bg-gray-200 rounded-md hover:bg-white border border-gray-200 outline-none focus:bg-white py-2 px-4;
+}
+
 @tailwind components;
-@tailwind utilities;tai
+@tailwind utilities;
